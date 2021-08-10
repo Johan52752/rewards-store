@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/%7BRewards-store%7D/static/css/main.66f8f15a.chunk.css",
-    "main.js": "/%7BRewards-store%7D/static/js/main.e3bede56.chunk.js",
-    "main.js.map": "/%7BRewards-store%7D/static/js/main.e3bede56.chunk.js.map",
-    "runtime-main.js": "/%7BRewards-store%7D/static/js/runtime-main.558f9caf.js",
-    "runtime-main.js.map": "/%7BRewards-store%7D/static/js/runtime-main.558f9caf.js.map",
-    "static/js/2.d498aa1c.chunk.js": "/%7BRewards-store%7D/static/js/2.d498aa1c.chunk.js",
-    "static/js/2.d498aa1c.chunk.js.map": "/%7BRewards-store%7D/static/js/2.d498aa1c.chunk.js.map",
-    "index.html": "/%7BRewards-store%7D/index.html",
-    "static/css/main.66f8f15a.chunk.css.map": "/%7BRewards-store%7D/static/css/main.66f8f15a.chunk.css.map",
-    "static/js/2.d498aa1c.chunk.js.LICENSE.txt": "/%7BRewards-store%7D/static/js/2.d498aa1c.chunk.js.LICENSE.txt"
+    "main.css": "/rewards-store/static/css/main.66f8f15a.chunk.css",
+    "main.js": "/rewards-store/static/js/main.e3bede56.chunk.js",
+    "main.js.map": "/rewards-store/static/js/main.e3bede56.chunk.js.map",
+    "runtime-main.js": "/rewards-store/static/js/runtime-main.7c11429d.js",
+    "runtime-main.js.map": "/rewards-store/static/js/runtime-main.7c11429d.js.map",
+    "static/js/2.d498aa1c.chunk.js": "/rewards-store/static/js/2.d498aa1c.chunk.js",
+    "static/js/2.d498aa1c.chunk.js.map": "/rewards-store/static/js/2.d498aa1c.chunk.js.map",
+    "index.html": "/rewards-store/index.html",
+    "static/css/main.66f8f15a.chunk.css.map": "/rewards-store/static/css/main.66f8f15a.chunk.css.map",
+    "static/js/2.d498aa1c.chunk.js.LICENSE.txt": "/rewards-store/static/js/2.d498aa1c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.558f9caf.js",
+    "static/js/runtime-main.7c11429d.js",
     "static/js/2.d498aa1c.chunk.js",
     "static/css/main.66f8f15a.chunk.css",
     "static/js/main.e3bede56.chunk.js"
