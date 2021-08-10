@@ -1,0 +1,14 @@
+.token{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 20.5px;
+    height: 48px;
+    justify-content: space-around;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 48px;
+    letter-spacing: -0.15px;
+    color: #616161;
+}

@@ -1,0 +1,98 @@
+.filter{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 74px;
+}
+
+.filter-sort-options{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+}
+.filter-sort-options ul{
+    display: flex;
+    list-style: none;
+}
+.li{
+    margin-left: 12px;
+    background: #e2e0e0;
+    border-radius: 20.5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 48px;
+    letter-spacing: -0.15px;
+    color: #A3A3A3;
+    width: 148px;
+    cursor: pointer;
+    text-align: center;
+}
+.selected{
+    background: #0AD4FA;
+    color:white;
+}
+.filter-sort-options-pages{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 48px;
+    letter-spacing: -0.15px;
+    color: #616161;
+}
+.filter-sort-options-type{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 48px;
+    letter-spacing: -0.15px;
+    color: #A3A3A3;
+    margin-left: 10px;
+}
+.filter-sort-options-categories{
+    outline: none;
+    border:none;
+    background: #e2e0e0;
+    border-radius: 20.5px;
+    appearance:none;
+    width: 130px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 48px;
+    letter-spacing: -0.15px;
+    color: #A3A3A3;
+    /* padding:0px 30px; */
+    text-align-last: center;
+}
+.filter-pages{
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.filter-pages-shape{
+    width: 48px;
+    height: 48px;
+    background: #F2F2F2;
+    text-align: center;
+    border: 1px solid #858383;
+    border-radius: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.disabled{
+    opacity: 0;
+
+}
+.filter-pages img{
+    margin:0 auto;
+}
+hr{
+    height: 80%;
+}

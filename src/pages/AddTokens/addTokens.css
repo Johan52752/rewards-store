@@ -1,0 +1,15 @@
+.add-tokens{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-tokens-background{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+}
+

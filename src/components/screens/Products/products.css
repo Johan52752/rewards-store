@@ -1,0 +1,23 @@
+.products{
+    width: 85%;
+    margin: 0 auto;
+    text-align: start;
+}
+.products-line{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.products-layout{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.products-pages{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 48px;
+    letter-spacing: -0.15px;
+    color: #616161;
+}
