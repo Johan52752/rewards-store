@@ -22,7 +22,7 @@ export function Product({name,img,category,cost,id,toBuy}){
                     <Token infoTokens={cost} color="linear-gradient(180deg, rgba(10, 212, 250, 0.86) 0%, rgba(37, 187, 241, 0.86) 100%);"/>
                     {points<cost?<a onClick={(e)=>{
                         e.preventDefault();
-                        history.push("/add-tokens");
+                        history.push("/rewards-store/add-tokens");
                     }}>Add tokens</a>
                     :<a onClick={async ()=>{
                         dispatch(buyProduct(cost))

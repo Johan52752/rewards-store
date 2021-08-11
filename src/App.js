@@ -12,8 +12,8 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/rewards-store" component={Home}/>
-        <Route exact path="/add-tokens" component={AddTokens}/>
-        <Route exact path="/redeem-history" component={History}/>
+        <Route exact path="/rewards-store/add-tokens" component={AddTokens}/>
+        <Route exact path="/rewards-store/redeem-history" component={History}/>
       </Switch>
     </div>
   );
