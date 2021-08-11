@@ -7,13 +7,11 @@ import {History} from "./pages/History/History"
 
 function App() {
   const state=useSelector((state)=>state)
-  console.log(state)
-  
   
   return (
     <div className="App">
       <Switch>
-        <Route exact path="/" component={Home}/>
+        <Route exact path="/rewards-store" component={Home}/>
         <Route exact path="/add-tokens" component={AddTokens}/>
         <Route exact path="/redeem-history" component={History}/>
       </Switch>
