@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rewards-store/static/css/main.66f8f15a.chunk.css",
-    "main.js": "/rewards-store/static/js/main.aa50766b.chunk.js",
-    "main.js.map": "/rewards-store/static/js/main.aa50766b.chunk.js.map",
+    "main.js": "/rewards-store/static/js/main.e6b97029.chunk.js",
+    "main.js.map": "/rewards-store/static/js/main.e6b97029.chunk.js.map",
     "runtime-main.js": "/rewards-store/static/js/runtime-main.7c11429d.js",
     "runtime-main.js.map": "/rewards-store/static/js/runtime-main.7c11429d.js.map",
     "static/js/2.d498aa1c.chunk.js": "/rewards-store/static/js/2.d498aa1c.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.7c11429d.js",
     "static/js/2.d498aa1c.chunk.js",
     "static/css/main.66f8f15a.chunk.css",
-    "static/js/main.aa50766b.chunk.js"
+    "static/js/main.e6b97029.chunk.js"
   ]
 }
