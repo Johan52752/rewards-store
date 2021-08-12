@@ -11,7 +11,7 @@ import {addPoints} from "./services/pointsService"
 import {reducers} from "./reducers/reducers"
 import thunk from "redux-thunk"
   
-  const store=createStore(reducers,[],applyMiddleware(thunk))
+  const store=createStore(reducers,{},applyMiddleware(thunk))
   ReactDOM.render(
    <Provider store={store}>
     <BrowserRouter>

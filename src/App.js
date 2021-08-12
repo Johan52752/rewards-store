@@ -13,19 +13,18 @@ function App() {
   useEffect(()=>{
     dispatch(getUsers())
     dispatch(getProducts())
-
   },[])
     const state=useSelector((state)=>state)
-    console.log(state)
+    console.log(Object.keys(state).length)
   return (
     <div className="App">
       {
-        state?<Switch>
+        Object.keys(state).length>2?<Switch>
                 <Route exact path="/rewards-store/" component={Home}/>
                 <Route exact path="/rewards-store/add-tokens" component={AddTokens}/>
                 <Route exact path="/rewards-store/redeem-history" component={History}/>
               </Switch>
-              :null
+              :""
       }
       
     </div>
