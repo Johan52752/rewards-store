@@ -1,5 +1,16 @@
 export const reducers=(state, action)=>{
     switch(action.type){
+        case "GET_USERS":
+            return{
+                ...state,
+                user:action.payload
+            }
+        case "GET_PRODUCTS":
+            return{
+                ...state,
+                products:action.payload,
+                filterProducts:action.payload
+            }
         case "MOST_RECENT":
             return{
                 ...state,

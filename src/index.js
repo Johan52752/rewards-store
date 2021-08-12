@@ -10,16 +10,8 @@ import {getUsers} from "./services/userService"
 import {addPoints} from "./services/pointsService"
 import {reducers} from "./reducers/reducers"
 import thunk from "redux-thunk"
-
-async function main(){
-  const products =await getProducts();
-  const user=await getUsers();
-  const initialState={
-    user:user,
-    products:products,
-    filterProducts:products
-  }
-  const store=createStore(reducers,initialState)
+  
+  const store=createStore(reducers,[],applyMiddleware(thunk))
   ReactDOM.render(
    <Provider store={store}>
     <BrowserRouter>
@@ -28,6 +20,5 @@ async function main(){
    </Provider>,
   document.getElementById('root')
   );
-}
-main()
+
 

@@ -38,27 +38,21 @@ export const updateUser=(payload)=>{
 }
 export const getUsers=()=>{
     return async (dispatch)=>{
-        try{
-            const users= await fetchUsers()
-            dispatch({
-                type:"GET_USERS",
-                payload:users
-            })
-        }catch(error){
-            console.log(error)
-        }
+        const users= await fetchUsers()
+        dispatch({
+            type:"GET_USERS",
+            payload:users
+        })
+        
     }
 }
 export const getProducts=()=>{
     return async (dispatch)=>{
-        try{
-            const products= await fetchProducts()
-            dispatch({
-                type:"GET_PRODUCTS",
-                payload:products
-            })
-        }catch(error){
-            console.log(error)
-        }
+        const products= await fetchProducts()
+        dispatch({
+            type:"GET_PRODUCTS",
+            payload:products
+        })
+        
     }
 }
